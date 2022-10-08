@@ -24,22 +24,25 @@ items:
       Een pasgeboren baby is kwetsbaar, dus niet iedereen is zomaar welkom.
 
     call_to_action_name: Controleer
-    call_to_action_link: /page-3/
+    call_to_action_link: /baby
 
 
   - title: Kraambezoek
     subtitle: Boek je bezoek.
     icon: fa-calendar-check
 
-    description: Er komen pas tijdsslots beschikbaar na de bevalling.
+    description: >
+      Er komen pas tijdsslots beschikbaar na de bevalling.
 
     call_to_action_name: Nog niet open
+    call_to_action_link: /baby
 
   - title: Wensenlijst
     subtitle: Kadotips
     icon: fa-gifts
 
-    description: Je hoeft ons geen kado te geven. Maar als je erop staat zijn hier wat suggesties.
+    description: >
+      Je hoeft ons geen kado te geven. Maar als je erop staat zijn hier wat suggesties.
 
     call_to_action_name: Naar kadotips
-    call_to_action_link: [verlanglijst.online](https://verlanglijst.online/rt96u9ey){:target="_blank"}
+    call_to_action_link: https://verlanglijst.online/rt96u9ey

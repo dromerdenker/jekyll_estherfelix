@@ -13,4 +13,5 @@ defaults:
     values:
       layout: "page"
 
-theme: bulma-clean-theme
+# With GitHub Pages Gem
+remote_theme: chrisrhymes/bulma-clean-theme
