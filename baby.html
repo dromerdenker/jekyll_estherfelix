@@ -12,9 +12,9 @@ hero_image: assets/images/echo_baby_example_xl.jpg
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="columns">
-  <div class="column">
-    <div class="card">
+<div class="tile is-ancestor">
+  <div class="tile is-4 is-vertical is-parent">
+    <div class="tile is-child card">
         <header class="card-header">
             <p class="card-header-title">
                 Baby status
@@ -38,23 +38,22 @@ hero_image: assets/images/echo_baby_example_xl.jpg
             <div class="content">
                 Verwachte bevalling: begin november 2022
             </div>
+            <footer>NB. De echofoto is een illustratie, niet <i>ons</i> kindje</footer>
         </div>
 
     </div> <!-- /card baby status -->
-    <article class="message is-info">
-      <div class="message-header">
-        <p>Geboortekaartje</p>
-      </div>
-      <div class="message-body">
-          na de geboorte.
-      </div>
-    </article>
+      <article class="tile is-child message is-info">
+          <div class="message-header">
+            <p>Geboortekaartje</p>
+          </div>
+          <div class="message-body">
+              na de geboorte.
+          </div>
+      </article>
 
-
-
-  </div> <!-- /column -->
-<div class="column">
-    <article class="message is-warning">
+  </div> <!-- /tile -->
+<div class="tile is-4 is-vertical is-parent">
+    <article class="tile is-child message is-warning">
       <div class="message-header">
         <p>Deurbeleid</p>
       </div>
@@ -87,7 +86,7 @@ hero_image: assets/images/echo_baby_example_xl.jpg
 
       </div>
     </article>
-    <div class="card">
+    <div class="tile is-child card">
         <header class="card-header">
             <p class="card-header-title">
                 Kado?
@@ -101,12 +100,9 @@ hero_image: assets/images/echo_baby_example_xl.jpg
                     </span>
 
                 </div>
-                <div class="media-content">
-                    <p class="title is-4">Kado suggesties</p>
-                </div>
             </div>
             <div class="content">
-                Je hoeft geen kado te geven! Maar als je graag iets <emph>wilt</emph> geven hebben we vrijblijvend suggesties.
+                Je hoeft geen kado te geven! Maar we hebben vrijblijvend suggesties.
             </div>
             <footer class="card-footer">
                 <a target="_blank" href="https://verlanglijst.online/rt96u9ey" class="card-footer-item">Tips</a>
@@ -114,7 +110,7 @@ hero_image: assets/images/echo_baby_example_xl.jpg
         </div>
     </div> <!-- /card gifts list -->
 
-    <article class="message">
+    <article class="tile is-child message">
       <div class="message-header">
         <p>Col2b</p>
         <button class="delete" aria-label="delete"></button>
@@ -123,8 +119,8 @@ hero_image: assets/images/echo_baby_example_xl.jpg
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
       </div>
     </article>
-</div> <!-- /column -->
-</div > <!-- /columns -->
+</div> <!-- /tile -->
+</div > <!-- /ancestor-tile -->
 
 </body>
 </html>
