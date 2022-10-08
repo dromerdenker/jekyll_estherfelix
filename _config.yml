@@ -5,15 +5,12 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
+
+theme: bulma-clean-theme
