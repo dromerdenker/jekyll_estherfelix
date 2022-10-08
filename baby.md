@@ -3,7 +3,7 @@ title: Baby
 permalink: /baby
 
 subtitle: Wij hebben er zin in!
-hero_image: /assets/images/echo_baby_example_xl.jpg
+hero_image: assets/images/echo_baby_example_xl.jpg
 callouts: baby_acties
 ---
 # Baby op komst
