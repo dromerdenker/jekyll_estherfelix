@@ -1,8 +1,10 @@
 ---
-permalink: /baby2
-title: Wij hebben er zin in!
-
-hero_image: assets/images/echo_baby_example_xl.jpg
+permalink: /baby
+title: Hoera!
+cal_com_url: https://cal.com/estherfelix/kraambezoek
+verlanglijst_online_url: https://verlanglijst.online/rt96u9ey
+hero_darken: true
+hero_image: assets/images/baby_foot_1600.jpg
 ---
 
 <head>
@@ -11,37 +13,12 @@ hero_image: assets/images/echo_baby_example_xl.jpg
     <link rel="stylesheet" href="assets/css/app.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 <div class="tile is-ancestor">
   <div class="tile is-4 is-vertical is-parent">
-    <div class="tile is-child card">
-        <header class="card-header">
-            <p class="card-header-title">
-                Baby status
-            </p>
-        </header>
-        <div class="card-content">
-            <div class="media">
-                <div class="media-left">
+    {% include card_baby_status.html %}
 
-                    <span class="icon is-large">
-                        <i class="fas fa-baby fa-2x"></i>
-                    </span>
-
-                </div>
-                <div class="media-content">
-                    <p class="title is-4">Nog niet geboren</p>
-                    <p class="title is-4">M/V: onbekend</p>
-                    <p class="subtitle is-6">bijgewerkt: 8 oktober 2022</p>
-                </div>
-            </div>
-            <div class="content">
-                Verwachte bevalling: begin november 2022
-            </div>
-            <footer>NB. De echofoto is een illustratie, niet <i>ons</i> kindje</footer>
-        </div>
-
-    </div> <!-- /card baby status -->
       <article class="tile is-child message is-info">
           <div class="message-header">
             <p>Geboortekaartje</p>
@@ -51,75 +28,111 @@ hero_image: assets/images/echo_baby_example_xl.jpg
           </div>
       </article>
 
-  </div> <!-- /tile -->
-<div class="tile is-4 is-vertical is-parent">
-    <article class="tile is-child message is-warning">
-      <div class="message-header">
-        <p>Deurbeleid</p>
-      </div>
-      <div class="message-body">
-            Een pasgeboren baby is kwetsbaar. Heb jij:
-          <div class="icon-text">
-            <span class="icon has-text-danger">
-                <i class="fas fa-meh-blank"></i>
-            </span>
-              <span>Koortslip</span>
-            <a href="https://www.thuisarts.nl/koortslip/ik-heb-koortslip">
-                <span class="tag is-info is-light">meer info...</span>
-            </a>
+    </div>
+    <div class="tile is-4 is-vertical is-parent">
+        <article class="tile is-child message is-warning">
+          <div class="message-header">
+            <p>Deurbeleid</p>
           </div>
-          <div class="icon-text">
-            <span class="icon has-text-danger">
-                <i class="fas fa-head-side-cough"></i>
-            </span>
-              <span>verkoudheid / COVID-19</span>
-          </div>
-          <div class="icon-text">
-            <span class="icon has-text-danger">
-                <i class="fas fa-dog"></i>
-            </span>
-              <span>een huisdier bij je</span>
-          </div>
-          <p><b>Daarmee laten we je niet binnen</b>. </p>
-          <p>Kom aub pas als je weer gezond bent en een oppas voor je huisdier hebt. We rekenen op je begrip.
-              We houden zolang een beschuitje apart voor je!</p>
+          <div class="message-body">
+                Een pasgeboren baby is kwetsbaar. Heb jij:
+              <div class="icon-text">
+                <span class="icon has-text-danger">
+                    <i class="fas fa-meh-blank"></i>
+                </span>
+                  <span>Koortslip</span>
+                <a href="https://www.thuisarts.nl/koortslip/ik-heb-koortslip">
+                    <span class="tag is-info is-light">meer info...</span>
+                </a>
+              </div>
+              <div class="icon-text">
+                <span class="icon has-text-danger">
+                    <i class="fas fa-head-side-cough"></i>
+                </span>
+                  <span>verkoudheid / COVID-19</span>
+              </div>
+              <div class="icon-text">
+                <span class="icon has-text-danger">
+                    <i class="fas fa-dog"></i>
+                </span>
+                  <span>een huisdier bij je</span>
+              </div>
+              <p><b>Daarmee laten we je niet binnen</b>. </p>
+              <p>Kom aub pas als je weer gezond bent en een oppas voor je huisdier hebt. We rekenen op je begrip.
+                  We houden zolang een beschuitje apart voor je!</p>
 
-      </div>
-    </article>
-    <div class="tile is-child card">
-        <header class="card-header">
-            <p class="card-header-title">
-                Kado?
-            </p>
-        </header>
-        <div class="card-content">
-            <div class="media">
-                <div class="media-left">
-                    <span class="icon is-large">
-                        <i class="fas fa-gift fa-2x"></i>
-                    </span>
+          </div>
+        </article>
+        <div class="tile is-child card">
+            <header class="card-header">
+                <p class="card-header-title">
+                    Kado?
+                </p>
+            </header>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <span class="icon is-large">
+                            <i class="fas fa-gift fa-2x"></i>
+                        </span>
 
+                    </div>
                 </div>
+                <div class="content">
+                    Je hoeft geen kado te geven! Maar we hebben vrijblijvend suggesties.
+                </div>
+                <footer class="card-footer">
+                    <a target="_blank" href="{{ page.verlanglijst_online_url }}" class="card-footer-item">Tips</a>
+                </footer>
             </div>
-            <div class="content">
-                Je hoeft geen kado te geven! Maar we hebben vrijblijvend suggesties.
-            </div>
-            <footer class="card-footer">
-                <a target="_blank" href="https://verlanglijst.online/rt96u9ey" class="card-footer-item">Tips</a>
-            </footer>
-        </div>
-    </div> <!-- /card gifts list -->
+        </div> <!-- /card gifts list -->
 
-    <article class="tile is-child message">
-      <div class="message-header">
-        <p>Col2b</p>
-        <button class="delete" aria-label="delete"></button>
-      </div>
-      <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-      </div>
-    </article>
-</div> <!-- /tile -->
+        <article class="tile is-child message is-info">
+          <div class="message-header">
+            <p>Huisvlijt</p>
+          </div>
+          <div class="message-body">
+              volgt
+          </div>
+        </article>
+    </div> <!-- /tile middle column -->
+
+    <div class="tile is-4 is-vertical is-parent">
+         <div class="tile is-child card">
+             <header class="card-header">
+                 <p class="card-header-title">
+                     Kraambezoek
+                 </p>
+             </header>
+             <div class="card-content">
+                 <div class="media">
+                     <div class="media-left">
+                        <span class="icon is-large">
+                            <i class="fas fa-calendar fa-2x"></i>
+                        </span>
+                     </div>
+                     <div class="media-content">
+                         <a href="{{ page.cal_com_url }}" class="button is-link">Boek een tijd</a>
+                         <p class="subtitle is-6">Nog niet gestart.</p>
+                     </div>
+                 </div>
+                 <div class="content">
+
+
+                     <p>Je kiest zelf een plek in onze afsprakenplanner. </p>
+                     <div class="notification is-success"> Je verzoek wordt door ons <strong>bevestigd</strong></div>
+                     <p>Na onze bevestiging verschijnt de afspraak in je agenda in Outlook/GoogleCalendar/iCal
+                         op het emailadres dat je opgeeft.</p>
+                     <p>Zijn er geen plekken vrij? Even geduld, we vullen de kalender met nieuwe plekken naar gelang
+                         moeder en kind bezoek aankunnen.</p>
+
+                     <p>Voor speciale verzoeken, graag even bellen</p>
+                 </div>
+                 <footer>Je email adres wordt door cal.com alleen gebruikt voor deze afspraak en niet "verkocht".</footer>
+             </div>
+
+         </div> <!-- /card baby status -->
+    </div> <!-- /tile right column -->
 </div > <!-- /ancestor-tile -->
 
 </body>

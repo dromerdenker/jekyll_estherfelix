@@ -1,0 +1,27 @@
+ <div class="tile is-child card">
+        <header class="card-header">
+            <p class="card-header-title">
+                Baby status
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+
+                    <span class="icon is-large">
+                        <i class="fas fa-baby fa-2x"></i>
+                    </span>
+
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">{{ site.data.baby_status.dress_size }}</p>
+                    <p class="title is-4">{{ site.data.baby_status.gender }}</p>
+                    <p class="subtitle is-6">bijgewerkt: {{ site.data.baby_status.last_updated }}</p>
+                </div>
+            </div>
+            <div class="content">
+                {{ site.data.baby_status.description }}
+            </div>
+
+        </div>
+    </div> <!-- /card baby status -->
