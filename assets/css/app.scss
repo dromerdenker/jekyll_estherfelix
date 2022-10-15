@@ -1,5 +1,31 @@
 ---
 ---
-$primary: #333333;
+$primary: #3385a3;
 // Import Main CSS file from theme
 @import "main";
+
+// remove the jekyll repo name from the menu bar.
+.navbar-brand {
+    display: none;
+}
+
+// remove the Home menu bar item
+.navbar-item:nth-of-type(1) {
+    display: none;
+}
+
+.message.is-info .message-header {
+    background-color: $primary
+}
+
+.notification.is-info {
+    background-color: $primary
+}
+
+.card-header {
+    background-color: $primary
+}
+
+.card-header-title {
+    color: #FFF
+}
