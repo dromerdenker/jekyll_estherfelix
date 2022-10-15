@@ -2,6 +2,7 @@
 permalink: /baby
 title: Hoera!
 cal_com_url: https://cal.com/estherfelix/kraambezoek
+forms_app_url: https://my.forms.app/form/634b07c31995f276251d1808
 verlanglijst_online_url: https://verlanglijst.online/rt96u9ey
 hero_darken: true
 hero_image: assets/images/baby_foot_1600.jpg
@@ -66,18 +67,20 @@ hero_image: assets/images/baby_foot_1600.jpg
             <div class="card-content">
                 <div class="media">
                     <div class="media-left">
-                        <span class="icon is-large">
+                        <span class="icon is-large is-half">
                             <i class="fas fa-gift fa-2x"></i>
                         </span>
-
+                    </div>
+                    <div class="media-content is-half" >
+                        <a target="_blank" class="button is-link"
+                        href="{{ page.verlanglijst_online_url }}">
+                            Tips
+                        </a>
                     </div>
                 </div>
                 <div class="content">
                     Je hoeft geen kado te geven! Maar we hebben vrijblijvend suggesties.
                 </div>
-                <footer class="card-footer">
-                    <a target="_blank" href="{{ page.verlanglijst_online_url }}" class="card-footer-item">Tips</a>
-                </footer>
             </div>
         </div> <!-- /card gifts list -->
 
@@ -106,23 +109,39 @@ hero_image: assets/images/baby_foot_1600.jpg
                         </span>
                      </div>
                      <div class="media-content">
-                         <a href="{{ page.cal_com_url }}" class="button is-danger">Boek een tijd</a>
-                         <p class="subtitle is-6">Nog niet gestart.</p>
+                         <a href="{{ page.cal_com_url }}" class="button is-danger">Boek jouw bezoek</a>
+                         <p class="subtitle is-6"><small>Nog niet gestart.</small></p>
                      </div>
                  </div>
                  <div class="content">
 
 
                      <p>Je kiest zelf een plek in onze afsprakenplanner. </p>
-                     <div class="notification is-info"> Je verzoek wordt door ons <strong>bevestigd</strong></div>
-                     <p>Na onze bevestiging verschijnt de afspraak in je agenda in Outlook/GoogleCalendar/iCal
-                         op het emailadres dat je opgeeft.</p>
-                     <p>Zijn er geen plekken vrij? Even geduld, we vullen de kalender met nieuwe plekken naar gelang
-                         moeder en kind bezoek aankunnen.</p>
+                     <div class="notification is-warning"> Je verzoek wordt door ons <strong>bevestigd</strong></div>
+                     <p><small>Na onze bevestiging verschijnt de afspraak in je agenda in Outlook/GoogleCalendar/iCal
+                         op het emailadres dat je opgeeft.</small></p>
+                     <h2>Zijn er geen plekken vrij?</h2>
+                     <p>Naar gelang moeder en kind bezoek aankunnen vullen we de kalender met nieuwe plekken.
+                         Kijk later opnieuw op deze website, of laat je email achter, dan krijg
+                         je bericht zodra we plekken toevoegen.</p>
+                     <div class="media">
+                         <div class="media-left">
+                             <span class="icon is-large">
+                            <i class="fas fa-bell fa-2x"></i>
+                        </span>
+                         </div>
+                         <div class="media-content">
+                             <p>
+                                <a href="/kraambezoek-wachtlijst" class="button is-danger is-centered">email achterlaten</a>
+                            </p>
+                         </div>
+                     </div>
 
-                     <p>Voor speciale verzoeken, graag even bellen</p>
+                     <h2>Speciale verzoeken</h2>
+                     <p>Dan graag even bellen..</p>
                  </div>
-                 <footer>Je email adres wordt door cal.com alleen gebruikt voor deze afspraak en niet "verkocht".</footer>
+                 <footer><small>Je email adres wordt door cal.com en forms.app alleen gebruikt voor deze
+                     afspraak/wachtlijst en niet "verkocht".</small></footer>
              </div>
 
          </div> <!-- /card baby status -->
