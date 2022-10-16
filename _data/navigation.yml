@@ -1,6 +1,6 @@
 - name: Esther & Felix
   link: /
-- name: Verwachting
-  link: /verwachting
 - name: Ons Verhaal
   link: /onsverhaal
+- name: <span class="fas fa-baby"/> in Verwachting
+  link: /verwachting

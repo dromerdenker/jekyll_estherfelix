@@ -3,7 +3,7 @@ permalink: /baby
 title: Hoera!
 cal_com_url: https://cal.com/estherfelix/kraambezoek
 forms_app_url: https://my.forms.app/form/634b07c31995f276251d1808
-verlanglijst_online_url: https://verlanglijst.online/rt96u9ey
+
 hero_darken: true
 hero_image: assets/images/baby_foot_1600.jpg
 ---
@@ -58,31 +58,9 @@ hero_image: assets/images/baby_foot_1600.jpg
 
           </div>
         </article>
-        <div class="tile is-child card">
-            <header class="card-header">
-                <p class="card-header-title">
-                    Kado?
-                </p>
-            </header>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <span class="icon is-large is-half">
-                            <i class="fas fa-gift fa-2x"></i>
-                        </span>
-                    </div>
-                    <div class="media-content is-half" >
-                        <a target="_blank" class="button is-link"
-                        href="{{ page.verlanglijst_online_url }}">
-                            Tips
-                        </a>
-                    </div>
-                </div>
-                <div class="content">
-                    Je hoeft geen kado te geven! Maar we hebben vrijblijvend suggesties.
-                </div>
-            </div>
-        </div> <!-- /card gifts list -->
+
+        {% include card_gift_suggestions.html %}
+
 
         <article class="tile is-child message is-info">
           <div class="message-header">

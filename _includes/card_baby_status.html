@@ -16,12 +16,14 @@
                 <div class="media-content">
                     <p class="title is-4">{{ site.data.baby_status.dress_size }}</p>
                     <p class="title is-4">{{ site.data.baby_status.gender }}</p>
-                    <p class="subtitle is-6">bijgewerkt: {{ site.data.baby_status.last_updated }}</p>
+
                 </div>
             </div>
             <div class="content">
                 {{ site.data.baby_status.description }}
             </div>
-
         </div>
+        <footer class="card-footer">
+            <p><small>bijgewerkt: {{ site.data.baby_status.last_updated }}</small></p>
+        </footer>
     </div> <!-- /card baby status -->
