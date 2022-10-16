@@ -1,0 +1,271 @@
+{
+    "title": {
+        "media": {
+          "url": "https://images.pexels.com/photos/1006297/pexels-photo-1006297.jpeg",
+          "caption": "Het verhaal van Esther & Felix",
+          "credit": ""
+        },
+        "text": {
+          "headline": "Esther ❤️ Felix<br/> 2018 - heden",
+          "text": "<p>Van warme chocomel tot baby.</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "https://www.e-matching.nl/redactie_v4/images/fotobladeren.jpg",
+          "caption": "E-Matching online dating",
+          "credit": "e-matching.nl"
+        },
+        "start_date": {
+          "month": "9",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Online Daten",
+          "text": "<p>We vinden elkaar op de online dating site e-matching. <br/> Hun motto is <i>Dating voor hoger opgeleiden</i><br/>Esther heeft een vrolijk profiel en Felix stuurt haar een bericht zo onweerstaanbaar romantisch dat ze wel moet antwoorden. We raken aan de praat.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://res.cloudinary.com/natuurmonumenten/image/upload/ar_1386:750,c_fill,f_auto,g_xy_center,q_auto:eco,w_1386,x_800,y_533/v1/2020-01/Uitkijkpunt-%20Loonse-en-Drunense-Duinen%20klein",
+          "caption": "Loonse en Drunense duinen",
+          "credit": "foto door Natuurmonumenten"
+        },
+        "start_date": {
+          "month": "11",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Ontmoeting",
+          "text": "<p>Online is het leuk, dus tijd om elkaar te zien.</p><p>We spreken voor het eerst af in de Drunense Duinen, voor een frisse wandeling en een warme chocomel.</p><p>De chocomel is lekker, maar vooral het gezelschap smaakt naar meer. We spreken de volgende dag weer af. En de dag erna...</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/949592/pexels-photo-949592.jpeg",
+          "caption": "Vuurwerk",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "31",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Oudjaarsavond 2018",
+          "text": "<p>Esther stelt Felix voor aan haar beste vrienden tijdens onze eerst oud & nieuw samen.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://twitter.com/DromerDenker/status/1084596065888722945",
+          "caption": "Twitteren vanuit Japan",
+          "credit": "Tweet van Felix"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "2",
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Felix vertrekt naar Japan",
+          "text": "<p>Felix had al jaren het plan Japan te gaan zien en nu is dat moment. Esther kan niet mee, dus we missen elkaar reuze, bijna een maand lang! Felix stuurt dagelijks filmpjes en foto's van alle bijzonderheden op zijn ontdekkingsreis.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "https://www.unesco.nl/system/files/styles/colorbox/private/heritage_images/2018-10/parque_gueell.jpg?itok=d6MW3-kF",
+          "caption": "Park Guell door Gaudi, Barcelona",
+          "credit": "foto: Unesco werelderfgoed"
+        },
+        "start_date": {
+          "month": "4",
+
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Samen naar Barcelona",
+          "text": "<p>Esther kent Barcelona al en ze laat Felix de leukste plekjes zien. We genieten van Gaudi, lekker eten en heel veel wandelen.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/269887/pexels-photo-269887.jpeg",
+          "caption": "Esther is jarig",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "5",
+
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Esther is jarig",
+          "text": "<p>Esther: Oh en trouwens, mijn ouders komen straks ook, kun je die meteen ontmoeten. <br/> Felix: \uD83D\uDE33 </p><p>Ze waren heel aardig maar we denken niet dat ze doorhadden dat Felix de nieuwe vriend van Esther was. </p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "caption": "kamperen in Frankrijk",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "6",
+
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Samen in een tentje",
+          "text": "<p>We kunnen niet lang kamperen, maar een weekje past net. We gaan naar Zuid-Frankrijk. <br/> Esther schrijft tussen het kamperen door aan haar scriptie<br/> Het is mooi weer! </p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg",
+          "caption": "Waterval in IJsland",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "9",
+
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Vakantie in IJsland",
+          "text": "<p>We zetten onze eigen reis in elkaar, met de auto door IJsland. Watervallen en vulkanisch opborrelend spul overal. Het is prachtig.  </p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/546344/train-station-rotterdam-netherlands-546344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "caption": "Trein",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "10",
+
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Op en neer",
+          "text": "<p>Esther komt naar Den Bosch, of Felix komt naar Nijmegen, elk weekend en meestal ook een avond in de week. <br/> Esther staat ontzettend vroeg op om naar haar werk in het ziekenhuis te gaan. Felix houdt niet van vroeg opstaan \uD83D\uDE34.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://img.freepik.com/premium-photo/broken-leg-plaster-cast-near-crutches-home-rehabilitation-after-broken-leg_426900-493.jpg?w=2000",
+          "caption": "Gipsvoet",
+          "credit": "foto via freepik.com"
+        },
+        "start_date": {
+          "month": "3",
+
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Felix revalidatie<br/>Coronapandemie in Nederland",
+          "text": "<p>Felix heeft erg pech met zijn sport en kan niet meer lopen. Hij krijgt gips, wordt geopereerd en moet daarna revalideren.</p><p>Esther helpt, komt vaak langs en duwt hem in een rolstoel door Den Bosch als de Coronamaatregelen het toestaan. Intussen springt ze bij op de Intensive Care in Arnhem om de massa's doodzieke Coronapatienten te verzorgen.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/23_april_2016_CS_Arnhem.jpg/2880px-23_april_2016_CS_Arnhem.jpg",
+          "caption": "Arnhem centraal station",
+          "credit": "foto via Wikipedia"
+        },
+        "start_date": {
+          "month": "8",
+
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Felix vindt baan in Arnhem",
+          "text": "<p>We willen graag samenwonen, maar de reisafstanden zouden te lang zijn als we bij elkaar intrekken.</p><p>Felix verandert van baan en gaat vanaf november werken in Arnhem. Esther werkt ook in Arnhem. We gaan op zoek naar een plek om samen te wonen.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg",
+          "caption": "tekenen koopcontract",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "4",
+
+          "year": "2021"
+        },
+        "text": {
+          "headline": "We kopen samen een huis in Arnhem",
+          "text": "<p>Ondanks Corona vinden we in een knettergekke huizenmarkt een leuke woning in Arnhem. Gekocht!</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/4498135/pexels-photo-4498135.jpeg",
+          "caption": "verhuisdoos",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "7",
+
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Verhuizen naar ons huis",
+          "text": "<p>Eindelijk kunnen we erin!</p><p>In twee verhuizingen brengen onze vrienden al onze spullen samen in ons nieuwe huis.</p><p>Esther bestuurt natuurlijk heel stoer onze verhuisvrachtwagen. Ze neemt hem ook nog mee naar IKEA voor grote kasten.</p><p>Felix werkt intussen al een tijdje op zijn nieuwe werk, maar door Corona nog altijd uitsluitend op afstand. In het nieuwe huis is er dan ook een thuiskantoor voor ons samen."
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/2098143/pexels-photo-2098143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "caption": "sushi",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "3",
+
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Esther organiseert verjaardagsweekend voor Felix",
+          "text": "<p>De dozen zijn opgeruimd en Felix is jarig. Esther heeft een verrassingsweekend vol leuke activiteiten in Amsterdam in petto. Alleen, het hele programma moet op zijn kop, want we zijn er net achter gekomen dat Esther zwanger is.\uD83E\uDD30</p><p>Felix kan in elk gavel wel genieten van bijzondere sushi \uD83C\uDF63 ...Esther dus niet.</p><p>We vertellen het nog niemand...</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/3932700/pexels-photo-3932700.jpeg",
+          "caption": "Tenerife",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "5",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Voorlopig laatste verre reis: Tenerife",
+          "text": "<p>Esther is nog heel fit en ze mag nog vliegen. Corona is min of meer voorbij. We nemen het vliegtuig naar Tenerife voor een laatste verre reis, voorlopig. We verkennen het eiland met een auto. Het idee van een gezinnetje begint te wennen.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://images.pexels.com/photos/8876098/pexels-photo-8876098.jpeg",
+          "caption": "Boot van een Viking die zelf liever niet op de foto wil.",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "8",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Vakantie in Denemarken & Zweden",
+          "text": "<p>Met de auto rijden we op ons gemak een rondje door Denemarken en Zweden.</p><p>Het is prachtig en soms valt er een drupje regen (dat is hoe Esther een stortbui inschat voor we kleddernat regenen).</p><p>Over een maandje gaat Esther met zwangerschapsverlof.</p>"
+        }
+      }
+
+
+    ]
+}
+
