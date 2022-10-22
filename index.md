@@ -2,7 +2,7 @@
 layout: page
 title: Esther & Felix
 subtitle: Over ons
-hero_image: assets/images/estherfelix_stockholm_hero_800px.jpg
+hero_image: assets/images/estherfelix_900px.jpg
 ---
 # Over ons
 
