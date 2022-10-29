@@ -11,7 +11,7 @@ Hoi! Wij zijn Esther Bol en Felix Ogg. We wonen samen in Arnhem en werken ook al
 
 We zijn dol op elkaar en we koesteren:
 - humor
-- onze gezinnen en vrienden
+- onze vrienden, ouders, broers (Esther)
 - eropuit trekken en de wereld ontdekken
 - sport
 
