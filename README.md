@@ -1,2 +1,3 @@
-# jekyll_estherfelix
-Jekyll state site for Esther &amp; Felix domain
+# jekyll
+information used from main Jekyll page and the theme page.
+
