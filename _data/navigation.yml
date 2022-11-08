@@ -1,4 +1,5 @@
 - name: Ons Verhaal
   link: /onsverhaal
-- name: <span class="fas fa-baby"/> in Verwachting
-  link: /verwachting
+- name: <span class="fas fa-baby"/> Baby
+  link: /baby
+
