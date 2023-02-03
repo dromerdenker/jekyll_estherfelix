@@ -6,7 +6,7 @@ sub-title: Als je bij ons op bezoek bent
 ---
 
 # Gasten wifi
-Scan de code (op iPhone met de gewone)
-camera app, anders dmv. een QR-code scan app naar keuze) en je voegt
+Scan de code (iPhone: met je
+camera app, Android: gebruik een QR-code scan app) en je voegt
 ons wifi gastennetwerk aan je telefoon toe.
 ![WIFI]({{ site.url }}/assets/images/guest_wifi_qrcode.png)
