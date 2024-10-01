@@ -1,0 +1,26 @@
+---
+permalink: /dreumes
+title: Doei-amal!
+
+hero_darken: false
+hero_image: assets/images/pexels-mikhail-nilov-8923962.jpg
+---
+
+<body>
+<div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+        {% include card_toddler_status.html %}
+        {% include card_airbnb.html %}
+    </div> <!-- /tile left column -->
+    <div class="tile is-4 is-vertical is-parent">
+        {% include latest_toddler_news.html %}
+        {% include card_soundtrack.html %}
+
+    </div> <!-- /tile middle column -->
+    <div class="tile is-4 is-vertical is-parent">
+        {% include card_backstory_greetingcard.html %}
+    </div> <!-- /tile right column -->
+</div > <!-- /ancestor-tile -->
+
+</body>
+</html>

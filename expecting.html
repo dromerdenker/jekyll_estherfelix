@@ -1,26 +1,21 @@
 ---
 permalink: /verwachting
-title: Ze is er!
+title: November 2024...
 cal_com_url:
 verlanglijst_online_url: https://verlanglijst.online/rt96u9ey
 hero_image: assets/images/echo_baby_example_xl.jpg
 ---
 
 <body>
-<div class="tile is-ancestor">
-  <div class="tile is-4 is-vertical is-parent">
-      {% include card_baby_status.html %}
-  </div>
-    <div class="tile is-4 is-vertical is-parent">
-        {% include card_gift_suggestions.html %}
+    <div class="tile is-ancestor">
+        <div class="tile is-4 is-vertical is-parent">
+          {% include card_baby_status.html %}
+        </div>
+        <div class="tile is-4 is-vertical is-parent">
+            {% include latest_baby_news.html %}
+        </div>
+        <div class="tile is-4 is-vertical is-parent">
+            {% include card_gift_suggestions.html %}
+        </div> <!-- /tile middle column -->
     </div>
-    <div class="tile is-4 is-vertical is-parent">
-        {% include latest_baby_news.html %}
-    </div> <!-- /tile middle column -->
-</div>
-
-    </div> <!-- /tile right column -->
-</div > <!-- /ancestor-tile -->
-
 </body>
-</html>

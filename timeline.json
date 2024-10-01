@@ -279,8 +279,37 @@
           "headline": "Een dochter!",
           "text": "<p>Teveel om te vertellen hier... ze heeft haar eigen <a href='/baby'>pagina</a></p>"
         }
+      },
+      {
+        "media": {
+          "url": "assets/images/baby_foot_1600.jpg",
+          "caption": "Franse vakantie",
+          "credit": "todo"
+        },
+        "start_date": {
+          "month": "9",
+          "year": "2023"
+        },
+        "text": {
+          "headline": "Eerste gezinsvakantie 🇫🇷",
+          "text": "<p>We toeren per auto een stukje Frankrijk in, naar een huisje op een camping.</p><p>Alles gaat goed, behalve dat dochter oververhit en dat is drama.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "assets/images/baby_foot_1600.jpg",
+          "caption": "Foto van een willekeurige baby",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "month": "3",
+          "year": "2024"
+        },
+        "text": {
+          "headline": "Tweede kind op komst",
+          "text": "<p>Dochter slaapt goed en ontwikkelt zich gestaag. Ze wordt grote zus van iemand. Hij of zij kan niet achterblijven en heeft een eigen <a href='/verwachting'>pagina</a></p>"
+        }
       }
 
     ]
 }
-

@@ -1,0 +1,29 @@
+ <div class="tile is-child card">
+        <header class="card-header">
+            <p class="card-header-title">
+                Dreumes status
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+
+                    <span class="icon is-large">
+                        <i class="fas fa-child fa-2x"></i>
+                    </span>
+
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">{{ site.data.toddler_status.dress_size }}</p>
+                    <p class="title is-4">{{ site.data.toddler_status.gender }}</p>
+
+                </div>
+            </div>
+            <div class="content">
+                {{ site.data.toddler_status.description }}
+            </div>
+        </div>
+        <footer class="card-footer">
+            <p><small>bijgewerkt: {{ site.data.toddler_status.last_updated }}</small></p>
+        </footer>
+ </div> <!-- /card toddler status -->
