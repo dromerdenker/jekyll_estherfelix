@@ -309,6 +309,22 @@
           "headline": "Tweede kind op komst",
           "text": "<p>Dochter slaapt goed en ontwikkelt zich gestaag. Ze wordt grote zus van iemand. Hij of zij kan niet achterblijven en heeft een eigen <a href='/verwachting'>pagina</a></p>"
         }
+      },
+      {
+        "media": {
+          "url": "assets/images/baby_foot_1600.jpg",
+          "caption": "Foto van een willekeurige baby",
+          "credit": "foto via Pexels.com"
+        },
+        "start_date": {
+          "day" : 7,
+          "month": 11,
+          "year": 2024
+        },
+        "text": {
+          "headline": "Een meisje!",
+          "text": "<p>En plots hebben we twee dochters! Lees alles op de <a href='/baby'>baby-pagina</a></p>"
+        }
       }
 
     ]
