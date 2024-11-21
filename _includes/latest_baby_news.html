@@ -1,18 +1,8 @@
 <article class="tile is-child message is-info">
     <div class="message-header">
-        <p>Nieuws (11 november 2024)</p>
+        <p>Nieuws ({{ site.data.baby_status.last_updated }})</p>
     </div>
     <div class="message-body">
-        <p>
-            Eerste week
-        </p>
-        <p>
-            Bij geboorte op donderdagochtend 7 november 2024, in Ziekenhuis Rijnstate bleek het .. een meisje!
-        </p>
-        <p>
-            Het gaat goed met haar en met Esther, ze zijn gezond. Ze oefenen samen
-            op borstvoeding geven / nemen. Het kleintje is vandaag voor het
-            eerst in bad geweest, dat vond ze heerlijk!
-        </p>
+        {{ site.data.baby_status.long_story }}
     </div>
 </article>
