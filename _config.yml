@@ -2,7 +2,7 @@ title: ""
 repository: dromerdenker/jekyll_estherfelix
 defaults:
   - scope:
-      path: ""
+      path: "posts"
       type: "posts"
     values:
       layout: "post"

@@ -1,8 +1,25 @@
+{% for post in site.posts %}
+    {% if post.path contains "MEO" %}
 <article class="tile is-child message is-info">
     <div class="message-header">
-        <p>Nieuws ({{ site.data.baby_status.last_updated }})</p>
+        <p>{{ post.title }} ({{post.date | date_to_string}})</p>
     </div>
     <div class="message-body">
-        {{ site.data.baby_status.long_story }}
+        {{ post.content }}
+    </div>
+    <div class="message-footer">
+        <h4>Eerder nieuws</h4>
+        {% for olderpost in site.posts offset:2 %}
+            {% if olderpost.path contains "MEO" %}
+        <ul>
+            <li>{{ olderpost.title }} ({{ olderpost.date | date_to_string}})</li>
+        </ul>
+            {% endif %}
+        {% endfor %}
     </div>
 </article>
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+
