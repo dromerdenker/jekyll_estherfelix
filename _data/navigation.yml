@@ -1,5 +1,7 @@
 - name: Ons Verhaal
   link: /onsverhaal
+- name: Felix
+  link: "https://publish.felixogg.com"
 - name: <span class="fas fa-child"/> Dreumes
   link: /dreumes
 - name: <span class="fas fa-baby"/> Baby
